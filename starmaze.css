@@ -1,7 +1,6 @@
 body {
     background-color: rgb(14, 42, 75);
-    font-style: EB garamond;
-    font-style: italic;
+    font-family: Special elite;
     font-size: 5em;
     opacity: 100%;
     color: antiquewhite;
@@ -21,8 +20,7 @@ a {
 }
     
 .yolo {
-        font-style: EB garamond;
-    font-style: italic;
+        font-family: Special elite;
     font-size: 30%;
     opacity: 100%;
     color: antiquewhite;
