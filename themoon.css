@@ -1,6 +1,6 @@
 body {
         background-color: rgb(82, 109, 145);
-    font-style: "Noto Serif", serif;
+    font-family: "Special elite";
     font-style: italic;
     font-size: 1.5em;
     opacity: 100%;
@@ -17,7 +17,7 @@ a {
 
 
 .yolo {
-        font-style: "Noto Serif", serif;
+        font-family: "Special elite";
     font-style: italic;
     font-size: 6em;
     opacity: 100%;
@@ -108,3 +108,16 @@ a {
     opacity: 0; /* Makes the text completely transparent when hovered */
     color: transparent; /* Optional: also fades the color itself */
 }
+
+
+
+
+
+body {
+    background-color: rgb(82, 109, 145);
+    transition: background-color 0.9s ease;
+}
+body.darken {
+    background-color: rgb(23, 31, 43); /* Darker color */
+}
+
