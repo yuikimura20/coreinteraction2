@@ -4,11 +4,7 @@ body {
 
 
 
-    display: flex;
-    justify-content: center; /* Horizontal center */
-    align-items: center;     /* Vertical center */
-    height: 100vh;           /* Full viewport height */
-    margin: 0;
+
 }
 
 
@@ -18,19 +14,18 @@ body {
 p {
     color: rgb(242, 230, 211);
     opacity: 100%;
-    font-size: 3.5;
-    font-family: EB Garamond;
+    font-size: 2em;
+    font-family: Special elite;
     font-style: italic;
-    padding-right: 3em;
-    padding-left: 3em
+   
     
 }
 
 
 .container {
     position: relative;
-    width: 400%;
-    height: 400px;   /* any size you want */
+    width: 100%;
+    height: 100px;   /* any size you want */
     overflow: hidden;
 }
 
@@ -52,7 +47,5 @@ a {
     font-size: 7em;
     font-family: EB Garamond;
     font-style: italic;
-    padding-right: 3em;
-    padding-left: 3em
 
 }
